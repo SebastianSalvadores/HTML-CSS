@@ -1,0 +1,13 @@
+div.descripcion{
+    background: #EEE;
+    
+}
+
+div.foto{
+    margin-top: 10px;    
+    margin-bottom: 5px;
+}
+div.descripcion{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}

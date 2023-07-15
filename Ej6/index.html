@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+</head>
+<body>
+    <header>
+        <h1>Registrar un usuario</h1>
+    </header>
+    <section id="main-section">
+        <div class="formulario-registro">
+            <form action="/accion-form" method="post" enctype="multipart/form-data" class="form-registro">
+                <div>
+                    <label for="Nombre">Nombre del usuario</label><br>
+                    <input type="text" name="Nombre">
+                </div>
+                <div>
+                    <label for="Contrasena">Contraseña del usuario</label><br>
+                    <input type="password" name="Contrasena">
+                </div>
+                <div>
+                    <label for="Edad">Edad del usuario</label><br>
+                    <input type="number" name="Edad">
+                </div>
+                <div>
+                    <label for="Nacimiento">Fecha de nacimiento del usuario</label><br>
+                    <input type="date" name="Nacimiento">
+                </div>
+                <div>
+                    <label for="Sexo">Sexo del usuario</label><br>
+                    <input type="radio" name="Sexo" id="Hombre" value="H">
+                    <label for="Hombre">Hombre</label><br>
+                    <input type="radio" name="Sexo" id="Mujer" value="M">
+                    <label for="Mujer">Mujer</label><br>
+                    <input type="radio" name="Sexo" id="Otro" value="O">
+                    <label for="Otro">Prefiero no decir</label><br>
+                </div>
+                <div>
+                    <label for="Pais">Pais nacimiento del usuario</label><br>
+                    <select name="Pais">
+                        <option value="ARG">Argentina</option>
+                        <option value="CHI">Chile</option>
+                        <option value="URU">Uruguay</option>
+                        <option value="PAR">Paraguay</option>
+                        <option value="BRA">Brasil</option>
+                    </select>
+                </div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

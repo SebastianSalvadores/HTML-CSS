@@ -1,0 +1,25 @@
+#aspecto-personalizado{
+    list-style-image: url(rocket.svg);
+    
+}
+ul.menu{
+    list-style: redes;
+    width: 180px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid;
+    border-style: solid;
+    border-bottom: none;
+}
+ul.menu li{
+    border-bottom: 1px solid;
+    background: #F4F4F4;
+
+}
+ul.menu li a{
+    text-decoration: none;
+    padding: .2em 0 .2em .5em;
+    display: block;
+    color: #333;
+    text-align: center;
+}

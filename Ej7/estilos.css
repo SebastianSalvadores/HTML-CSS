@@ -1,0 +1,24 @@
+body{
+    background-color: beige;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h2{
+    font-family: cursive;
+    text-align: center;
+}
+p{
+    text-align: left;
+}
+.subtitulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: green;
+    font-weight: bold;
+}
+#p-section{
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    font-style: italic;
+}
