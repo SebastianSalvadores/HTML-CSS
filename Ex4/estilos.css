@@ -6,6 +6,7 @@ div.descripcion{
 div.foto{
     margin-top: 10px;    
     margin-bottom: 5px;
+    padding-right: 0;
 }
 div.descripcion{
     padding-top: 70px;
